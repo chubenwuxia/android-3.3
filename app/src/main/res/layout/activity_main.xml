@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#030303"
+
+    >
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        >
+        <TableRow>
+            <TextView
+
+                android:layout_height="wrap_content"
+
+                android:text="open..."
+                android:textColor="#EBEBEB"
+                android:layout_margin="6dp"
+
+                />
+
+            <TextView
+                android:layout_height="wrap_content"
+
+                android:text="ctrl-o"
+                android:textColor="#EBEBEB"
+                android:layout_marginLeft="280dp"
+
+                />
+
+        </TableRow>
+        <TableRow>
+            <TextView
+
+                android:layout_height="wrap_content"
+
+                android:text="save..."
+                android:textColor="#EBEBEB"
+                android:layout_margin="6dp"
+                />
+            <TextView
+                android:layout_height="wrap_content"
+
+                android:text="ctrl-s"
+                android:textColor="#EBEBEB"
+                android:layout_marginLeft="280dp"
+
+                />
+        </TableRow>
+        <TableRow>
+            <TextView
+
+                android:layout_height="wrap_content"
+
+                android:text="save as..."
+                android:textColor="#EBEBEB"
+                android:layout_margin="6dp"
+                />
+            <TextView
+                android:layout_height="wrap_content"
+
+                android:text="ctrl+shit-s"
+                android:textColor="#EBEBEB"
+                android:layout_marginLeft="250dp"
+
+                />
+        </TableRow>
+
+    </TableLayout>
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+        <TableRow>
+            <TextView
+
+                android:layout_height="wrap_content"
+
+                android:text="x import..."
+                android:textColor="#EBEBEB"
+
+                />
+
+
+        </TableRow>
+        <TableRow>
+            <TextView
+
+                android:layout_height="wrap_content"
+
+                android:text="x export..."
+                android:textColor="#EBEBEB"
+
+                />
+            <TextView
+                android:layout_height="wrap_content"
+
+                android:text="ctrl+e"
+                android:textColor="#EBEBEB"
+                android:layout_marginLeft="280dp"/>
+        </TableRow>
+
+    </TableLayout>
+    <TableLayout
+        android:layout_width="33dp"
+        android:layout_height="57dp">
+        <TableRow>
+            <TextView
+
+                android:layout_height="wrap_content"
+
+                android:text="QUIT"
+                android:textColor="#EBEBEB"
+                android:layout_margin="6dp" />
+        </TableRow>
+    </TableLayout>
+
+
+</LinearLayout>
